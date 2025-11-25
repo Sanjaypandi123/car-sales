@@ -420,16 +420,16 @@ header .icons a:hover {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 0 5px;
-    transition: .5s;
 }
 
-.product-page .boxs .box:hover {
+.product-page .boxs .box:hover img {
     transform: scale(1.1);
 }
 
 .product-page .boxs .box img {
     width: 100%;
     height: 100%;
+    transition: .5s;
     /* object-fit: cover; */
 }
 
