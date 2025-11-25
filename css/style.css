@@ -1376,6 +1376,13 @@ footer .foot p {
 }
 
 @media all and (max-width:576px) {
+    footer .container .box{
+        text-align: center;
+        align-items: center;
+    }
+    footer .container .box button{
+        padding: 5px 0;
+    }
     footer .foot {
         padding: 20px 10px;
         text-align: center;
