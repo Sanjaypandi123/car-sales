@@ -167,7 +167,11 @@ header .icons a:hover {
     }
 
     header .brand {
-        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+    header .brand a{
+        font-size: 1.7rem;
     }
 
     header .fa-xmark {
@@ -316,6 +320,7 @@ header .icons a:hover {
 @media all and (max-width:576px) {
     .home-page .home-head p{
         font-size: 2rem;
+        text-align: center;
     }
     .home-page .home-head a{
         width: 200px;
@@ -1373,6 +1378,7 @@ footer .foot p {
 @media all and (max-width:576px) {
     footer .foot {
         padding: 20px 10px;
+        text-align: center;
     }
 }
 @media all and (max-width:768px) {
@@ -1577,6 +1583,10 @@ footer .foot p {
     }
     .founder-page{
         padding: 20px;
+    }
+    .founder-page .left {
+        width: 20em;
+        height: 20em;
     }
 }
 
