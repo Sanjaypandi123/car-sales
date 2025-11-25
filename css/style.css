@@ -1037,7 +1037,7 @@ header .icons a:hover {
     }
     .review-page .bottom a{
         font-size: 1rem;
-        padding: 3px;
+        padding: 3px 2px;
     }
     .review-page .bottom a span{
         padding-left: 0;
