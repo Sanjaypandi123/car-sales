@@ -592,7 +592,7 @@ header .icons a:hover {
         font-size: 1.9rem;
     }
     .product-page .boxs{
-        gap: 20px;
+        /* gap: 50px; */
     }
     .product-page .boxs .box{
         width: 15em;
