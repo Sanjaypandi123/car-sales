@@ -170,7 +170,8 @@ header .icons a:hover {
         align-items: center;
         justify-content: center;
     }
-    header .brand a{
+
+    header .brand a {
         font-size: 1.7rem;
     }
 
@@ -218,16 +219,19 @@ header .icons a:hover {
     background-position: center;
     animation: glob 10s infinite;
 }
-@keyframes glob{
-    0%{
+
+@keyframes glob {
+    0% {
         background: url(../image/pexels-oidonnyboy-3751391.jpg) no-repeat center;
         background-size: cover
     }
-    50%{
+
+    50% {
         background: url(../image/view-3d-car.jpg) no-repeat center;
         background-size: cover;
     }
-    100%{
+
+    100% {
         background: url(../image/pexels-garvin-st-villier-719266-3972755.jpg) no-repeat center;
         background-size: cover
     }
@@ -318,11 +322,12 @@ header .icons a:hover {
 }
 
 @media all and (max-width:576px) {
-    .home-page .home-head p{
+    .home-page .home-head p {
         font-size: 2rem;
         text-align: center;
     }
-    .home-page .home-head a{
+
+    .home-page .home-head a {
         width: 200px;
     }
 }
@@ -371,8 +376,9 @@ header .icons a:hover {
     font-weight: 600;
 
 }
+
 @media all and (max-width:576px) {
-    .client .box{
+    .client .box {
         /* border: 1px solid red; */
         width: 10em;
     }
@@ -422,16 +428,36 @@ header .icons a:hover {
     box-shadow: 0 0 5px;
 }
 
-.product-page .boxs .box:hover img {
-    transform: scale(1.1);
+.product-page .boxs .box1 {
+    background: url(../image/bukatti.png) no-repeat center;
+    background-size: cover;
 }
 
-.product-page .boxs .box img {
+.product-page .boxs .box2 {
+    background: url(../image/ford.png) no-repeat center;
+    background-size: contain;
+}
+
+.product-page .boxs .box3 {
+    background: url(../image/rolls.png) no-repeat center;
+    background-size: contain;
+}
+
+.product-page .boxs .box4 {
+    background: url(../image/audi\ a6.png) no-repeat center;
+    background-size: contain;
+}
+
+/* .product-page .boxs .box:hover img {
+    transform: scale(1.1);
+} */
+
+/* .product-page .boxs .box img {
+    border: 1px solid red;
     width: 100%;
     height: 100%;
     transition: .5s;
-    /* object-fit: cover; */
-}
+} */
 
 .product-page .boxs .box .background {
     height: 100%;
@@ -588,39 +614,49 @@ header .icons a:hover {
         text-align: center;
         padding-bottom: 20px;
     }
-    .product-page .heading h1{
+
+    .product-page .heading h1 {
         font-size: 1.9rem;
     }
-    .product-page .boxs{
+
+    .product-page .boxs {
         /* gap: 50px; */
     }
-    .product-page .boxs .box{
+
+    .product-page .boxs .box {
         width: 15em;
         height: 15em;
     }
-    .product-page .boxs .box .background h1{
+
+    .product-page .boxs .box .background h1 {
         font-size: .9rem;
     }
-    .product-page .boxs .box .background p{
+
+    .product-page .boxs .box .background p {
         font-size: .7rem;
     }
-    .product-page .boxs .box .background h2{
+
+    .product-page .boxs .box .background h2 {
         font-size: .7rem;
     }
-    .product-page .boxs .box .background button{
+
+    .product-page .boxs .box .background button {
         /* border: 1px solid red; */
         width: 100px;
         padding: 10px 0;
         font-size: .7rem;
     }
-    .product-page .bottom a{
+
+    .product-page .bottom a {
         font-size: .9rem;
     }
+
     .product-page .boxs .box:hover {
-    transform: none;
+        transform: none;
     }
 
 }
+
 @media all and (max-width:768px) {
     .product-page .boxs {
         padding: 0;
@@ -648,6 +684,7 @@ header .icons a:hover {
     align-items: center;
     padding: 100px 0;
 }
+
 .soon-page .car h1 {
     font-size: 3rem;
     color: #ff7226;
@@ -760,6 +797,7 @@ header .icons a:hover {
         display: none;
     }
 }
+
 @media all and (max-width:768px) {
     .soon-page .car h1 {
         font-size: 2rem;
@@ -841,17 +879,20 @@ header .icons a:hover {
 }
 
 @media all and (max-width:576px) {
-    .location-page .head h1{
+    .location-page .head h1 {
         font-size: 2rem;
     }
-    .location-page .info .box{
+
+    .location-page .info .box {
         width: 10em;
         height: 8em;
     }
-    .location-page .info .box .bg{
+
+    .location-page .info .box .bg {
         font-size: .7rem;
     }
 }
+
 @media all and (max-width:768px) {
     .location-page .info {
         gap: 20px;
@@ -1026,23 +1067,28 @@ header .icons a:hover {
     .review-page .main {
         padding: 0;
     }
-    .review-page .main .left{
+
+    .review-page .main .left {
         width: 23.3em;
     }
-    .review-page .main .left .slider .card p{
+
+    .review-page .main .left .slider .card p {
         /* border: 1px solid red; */
         width: 19em;
         font-size: 1rem;
         font-weight: 200;
     }
-    .review-page .bottom a{
+
+    .review-page .bottom a {
         font-size: 1rem;
         padding: 3px 2px;
     }
-    .review-page .bottom a span{
+
+    .review-page .bottom a span {
         padding-left: 0;
     }
 }
+
 @media all and (max-width:768px) {
     .review-page .bottom {
         padding: 0 100px;
@@ -1209,20 +1255,23 @@ header .icons a:hover {
         color: #1d2b27;
     }
 }
+
 @media all and (max-width:576px) {
-    .blog-page .heading{
+    .blog-page .heading {
         gap: 10px;
     }
-    .blog-page .heading a{
+
+    .blog-page .heading a {
         /* border: 1px solid red; */
         font-size: 1rem;
     }
 }
 
 @media all and (max-width:768px) {
-    .blog-page{
+    .blog-page {
         padding: 20px;
     }
+
     .blog-page .heading {
         padding-top: 10px;
     }
@@ -1376,18 +1425,21 @@ footer .foot p {
 }
 
 @media all and (max-width:576px) {
-    footer .container .box{
+    footer .container .box {
         text-align: center;
         align-items: center;
     }
-    footer .container .box button{
+
+    footer .container .box button {
         padding: 5px 0;
     }
+
     footer .foot {
         padding: 20px 10px;
         text-align: center;
     }
 }
+
 @media all and (max-width:768px) {
     footer .container {
         align-items: start;
@@ -1410,6 +1462,7 @@ footer .foot p {
         /* gap: 10px; */
         margin-top: -10px;
     }
+
     footer .foot {
         padding: 20px 10px;
         text-align: center;
@@ -1577,26 +1630,32 @@ footer .foot p {
 }
 
 @media all and (max-width:576px) {
-    .home-page1 .home-info1 h1{
+    .home-page1 .home-info1 h1 {
         text-align: center;
     }
-    .jurny-page{
+
+    .jurny-page {
         padding: 20px;
     }
-    .jurny-page .right{
+
+    .jurny-page .right {
         width: 20em;
         height: 20em;
     }
-    .client1{
+
+    .client1 {
         gap: 45px;
     }
-    .client1 .box{
+
+    .client1 .box {
         width: 10em;
         text-align: center;
     }
-    .founder-page{
+
+    .founder-page {
         padding: 20px;
     }
+
     .founder-page .left {
         width: 20em;
         height: 20em;
@@ -1637,12 +1696,14 @@ footer .foot p {
     font-size: 1.3rem;
     font-weight: 600;
 }
+
 @media all and (max-width:576px) {
-    .home-page2 .home-info2 h1{
+    .home-page2 .home-info2 h1 {
         text-align: center;
         font-size: 1.5rem;
     }
-    .home-page2 .home-info2 p{
+
+    .home-page2 .home-info2 p {
         font-size: 1rem;
     }
 }
@@ -1683,12 +1744,14 @@ footer .foot p {
     font-size: 1.3rem;
     font-weight: 600;
 }
+
 @media all and (max-width:576px) {
-    .home-page3 .home-info3 h1{
+    .home-page3 .home-info3 h1 {
         text-align: center;
         font-size: 1.5rem;
     }
-    .home-page3 .home-info3 p{
+
+    .home-page3 .home-info3 p {
         font-size: 1rem;
     }
 }
@@ -2017,57 +2080,71 @@ footer .foot p {
 }
 
 @media all and (max-width:576px) {
-    .service-content .info1 .box{
+    .service-content .info1 .box {
         width: 20em;
         height: 22em;
     }
-    .service-content .info1 .box .bottom h1{
+
+    .service-content .info1 .box .bottom h1 {
         font-size: 1rem;
     }
-    .service-content .info1 .box .bottom h4{
+
+    .service-content .info1 .box .bottom h4 {
         font-size: .5rem;
     }
-    .service-content .info1 .box .bottom a{
+
+    .service-content .info1 .box .bottom a {
         width: 50%;
         font-size: 1rem;
     }
-    .service-content .info2 .box{
+
+    .service-content .info2 .box {
         width: 20em;
         height: 22em;
     }
-    .service-content .info2 .box .bottom h1{
+
+    .service-content .info2 .box .bottom h1 {
         font-size: 1rem;
     }
-    .service-content .info2 .box .bottom h4{
+
+    .service-content .info2 .box .bottom h4 {
         font-size: .5rem;
     }
-    .service-content .info2 .box .bottom a{
+
+    .service-content .info2 .box .bottom a {
         width: 50%;
         font-size: 1rem;
     }
-    .service-content .info3 .box{
+
+    .service-content .info3 .box {
         width: 20em;
         height: 22em;
     }
-    .service-content .info3 .box .bottom h1{
+
+    .service-content .info3 .box .bottom h1 {
         font-size: 1rem;
     }
-    .service-content .info3 .box .bottom h4{
+
+    .service-content .info3 .box .bottom h4 {
         font-size: .5rem;
     }
-    .service-content .info3 .box .bottom a{
+
+    .service-content .info3 .box .bottom a {
         width: 50%;
         font-size: 1rem;
     }
 }
+
 @media all and (max-width:768px) {
-    .service-content .info1{
+    .service-content .info1 {
         padding: 20px 0;
     }
-    .service-content .info2{
+
+    .service-content .info2 {
         padding: 20px 0;
     }
-    .service-content .info3{
+
+    .service-content .info3 {
         padding: 20px 0;
     }
 }
@@ -2255,38 +2332,47 @@ footer .foot p {
 }
 
 @media all and (max-width:576px) {
-    .details-page .main .left{
+    .details-page .main .left {
         margin-left: -75px;
     }
-    .details-page .main .right{
+
+    .details-page .main .right {
         width: 20em;
         height: 20em;
         margin-left: -75px;
     }
-    .details-page .main .right .input1 input{
+
+    .details-page .main .right .input1 input {
         font-size: .6rem;
     }
-    .details-page .main .right .input2 input{
+
+    .details-page .main .right .input2 input {
         font-size: .6rem;
     }
-    .details-page .main .right .message textarea{
+
+    .details-page .main .right .message textarea {
         font-size: .6rem;
     }
-    ::placeholder{
+
+    ::placeholder {
         font-size: .6rem;
     }
+
     .details-page .main .right .foot button {
         font-size: .5rem;
     }
-    .details-page .main .right .foot .icons a{
+
+    .details-page .main .right .foot .icons a {
         font-size: 1rem;
     }
 }
+
 @media all and (max-width:768px) {
-    .details-page .main .left{
+    .details-page .main .left {
         margin-left: -80px;
     }
-    .details-page .main .right{
+
+    .details-page .main .right {
         margin-left: -70px
     }
 }
@@ -2344,8 +2430,8 @@ footer .foot p {
     color: white;
 }
 
-@media all and (max-width:576px){
-    .center .info .box{
+@media all and (max-width:576px) {
+    .center .info .box {
         width: 20em;
         height: 20em;
     }
@@ -2370,10 +2456,12 @@ footer .foot p {
     .addr .info {
         padding: 0 75px;
     }
+
     .center .heading {
         width: 100%;
     }
-    .center .heading h1{
+
+    .center .heading h1 {
         font-size: 2rem;
     }
 
@@ -2439,13 +2527,43 @@ footer .foot p {
 .sales-page .list1 .carlist .box .top {
     height: 100%;
     width: 100%;
-    /* border: 1px solid red; */
+
 }
 
-.sales-page .list1 .carlist .box .top img {
+.sales-page .list1 .carlist .box .box1 {
+    background: url(../image/tata.png) no-repeat center;
+    background-size: contain;
+}
+
+.sales-page .list1 .carlist .box .box2 {
+    background: url(../image/pngegg.png) no-repeat center;
+    background-size: contain;
+}
+
+.sales-page .list1 .carlist .box .box3 {
+    background: url(../image/png1.png) no-repeat center;
+    background-size: contain;
+}
+
+.sales-page .list1 .carlist .box .box4 {
+    background: url(../image/png2.png) no-repeat center;
+    background-size: contain;
+}
+
+.sales-page .list1 .carlist .box .box5 {
+    background: url(../image/png3.png) no-repeat center;
+    background-size: contain;
+}
+
+.sales-page .list1 .carlist .box .box6 {
+    background: url(../image/png4.png) no-repeat center;
+    background-size: contain;
+}
+
+/* .sales-page .list1 .carlist .box .top img {
     width: 19em;
     height: 18em;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 .sales-page .list1 .carlist .box .mahindra {
     width: 100%;
@@ -2454,7 +2572,7 @@ footer .foot p {
 .sales-page .list1 .carlist .box .mahindra img{
     width: 18em;
     height: 18em;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 .sales-page .list1 .carlist .box .kia {
     width: 100%;
@@ -2463,8 +2581,8 @@ footer .foot p {
 .sales-page .list1 .carlist .box .kia img{
     width: 18em;
     height: 18em;
-    /* object-fit: cover; */
-}
+    object-fit: cover;
+} */
 .sales-page .list1 .carlist .box .bottom {
     /* border: 1px solid red; */
     height: 100%;
@@ -2476,7 +2594,8 @@ footer .foot p {
     justify-content: space-evenly;
     background-color: #000000ae;
 }
-.sales-page .list1 .carlist .box:hover .bottom{
+
+.sales-page .list1 .carlist .box:hover .bottom {
     top: 0;
 }
 
@@ -2484,7 +2603,8 @@ footer .foot p {
     display: flex;
     justify-content: center;
 }
-.sales-page .list1 .carlist .box .bottom h4{
+
+.sales-page .list1 .carlist .box .bottom h4 {
     font-size: 2rem;
     color: white;
 }
@@ -2540,6 +2660,7 @@ footer .foot p {
 .sales-page .list1 .carlist::-webkit-scrollbar {
     display: none;
 }
+
 .sales-page .list3 {
     display: flex;
     flex-direction: column;
@@ -2585,10 +2706,34 @@ footer .foot p {
     /* border: 1px solid red; */
 }
 
-.sales-page .list3 .carlist .box .top img {
-    width: 18em;
-    height: 18em;
-    /* object-fit: cover; */
+.sales-page .list3 .carlist .box .box1 {
+    background: url(../image/png6.png) no-repeat center;
+    background-size: contain;
+}
+
+.sales-page .list3 .carlist .box .box2 {
+    background: url(../image/audi.png) no-repeat center;
+    background-size: contain;
+}
+
+.sales-page .list3 .carlist .box .box3 {
+    background: url(../image/bmw.png) no-repeat center;
+    background-size: contain;
+}
+
+.sales-page .list3 .carlist .box .box4 {
+    background: url(../image/jaguar.png) no-repeat center;
+    background-size: contain;
+}
+
+.sales-page .list3 .carlist .box .box5 {
+    background: url(../image/lexus.png) no-repeat center;
+    background-size: contain;
+}
+
+.sales-page .list3 .carlist .box .box6 {
+    background: url(../image/skoda.png) no-repeat center;
+    background-size: contain;
 }
 
 .sales-page .list3 .carlist .box .bottom {
@@ -2602,11 +2747,12 @@ footer .foot p {
     background-color: #000000ae;
     transition: .5s;
 }
-.sales-page .list3 .carlist .box:hover .bottom{
+
+.sales-page .list3 .carlist .box:hover .bottom {
     top: 0;
 }
 
-.sales-page .list3 .carlist .box .bottom h4{
+.sales-page .list3 .carlist .box .bottom h4 {
     font-size: 2rem;
     color: white;
 }
@@ -2669,51 +2815,21 @@ footer .foot p {
 }
 
 @media all and (max-width:576px) {
-    .sales-page .list1 h1{
+    .sales-page .list1 h1 {
         text-align: center;
     }
-    .sales-page .list1 .carlist .box .top{
-        /* height: 65%; */
-        width: 20em;
-        height: 20em;
 
-    }
-    .sales-page .list1 .carlist .box .top img{
-        /* border: 1px solid red; */
-        width: 100%;
-        height: 100%;
-        /* object-fit:cover ; */
-        
-    }
-    .sales-page .list1 .carlist .box .mahindra{
-        width: 20em;
-        height: 10em;
-    }
-    .sales-page .list1 .carlist .box .mahindra img{
-        width: 100%;
-        height: 100%;
-    }
-    .sales-page .list1 .carlist .box .kia{
-        width: 20em;
-        height: 10em;
-    }
-    .sales-page .list1 .carlist .box .kia img{
-        width: 100%;
-        height: 100%;
-    }
-    .sales-page .list1 .carlist .box .bottom{
+    .sales-page .list1 .carlist .box .bottom {
         height: 100%;
         bottom: -100%;
         text-align: center;
     }
-    .sales-page .list3 h1{
+
+    .sales-page .list3 h1 {
         text-align: center;
     }
-    .sales-page .list3 .carlist .box .top{
-        height: 50%;
-        /* width: 105%; */
-    }
-    .sales-page .list3 .carlist .box .bottom{
+
+    .sales-page .list3 .carlist .box .bottom {
         height: 100%;
         bottom: -100%;
         text-align: center;
@@ -2735,11 +2851,6 @@ footer .foot p {
         scroll-snap-align: start;
     }
 
-    .sales-page .list1 .carlist .box .top img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
     .sales-page .list3 .carlist {
         width: 90%;
         height: 27em;
@@ -2750,12 +2861,6 @@ footer .foot p {
         height: 90%;
         flex: 0 0 100%;
         scroll-snap-align: start;
-    }
-
-    .sales-page .list3 .carlist .box .top img {
-        width: 80%;
-        height: 100%;
-        object-fit: cover;
     }
 }
 
@@ -2811,41 +2916,36 @@ footer .foot p {
     width: 100%;
 }
 
-.sales-page .list2 .carlist .box .top img {
-    width: 18em;
-    height: 19em;
-    object-fit: cover;
+.sales-page .list2 .carlist .box .box1 {
+    background: url(../image/nisson\ logo.png) no-repeat center;
+    background-size: cover;
 }
-.sales-page .list2 .carlist .box .ferrari {
-    width: 100%;
-    height: 100%;
-    /* border: 1px solid red; */
+
+.sales-page .list2 .carlist .box .box2 {
+    background: url(../image/png\ 7.png) no-repeat center;
+    background-size: cover;
 }
-.sales-page .list2 .carlist .box .ferrari img{
-    width: 18em;
-    height: 18em;
-    /* object-fit: cover; */
+
+.sales-page .list2 .carlist .box .box3 {
+    background: url(../image/ferrari.png) no-repeat center;
+    background-size: contain;
 }
-.sales-page .list2 .carlist .box .lamborghini {
-    width: 100%;
-    height: 100%;
-    /* border: 1px solid red; */
+
+.sales-page .list2 .carlist .box .box4 {
+    background: url(../image/png8.png) no-repeat center;
+    background-size: cover;
 }
-.sales-page .list2 .carlist .box .lamborghini img{
-    width: 18em;
-    height: 18em;
-    /* object-fit: cover; */
+
+.sales-page .list2 .carlist .box .box5 {
+    background: url(../image/png9.png) no-repeat center;
+    background-size: cover;
 }
-.sales-page .list2 .carlist .box .lotus {
-    width: 100%;
-    height: 100%;
-    /* border: 1px solid red; */
+
+.sales-page .list2 .carlist .box .box6 {
+    background: url(../image/70879859583.png) no-repeat center;
+    background-size: cover;
 }
-.sales-page .list2 .carlist .box .lotus img{
-    width: 18em;
-    height: 18em;
-    /* object-fit: cover; */
-}
+
 
 .sales-page .list2 .carlist .box .bottom {
     /* border: 1px solid red; */
@@ -2858,13 +2958,16 @@ footer .foot p {
     transition: .5s;
     position: absolute;
 }
-.sales-page .list2 .carlist .box:hover .bottom{
+
+.sales-page .list2 .carlist .box:hover .bottom {
     top: 0;
 }
-.sales-page .list2 .carlist .box .bottom h4{
+
+.sales-page .list2 .carlist .box .bottom h4 {
     font-size: 2rem;
     color: white;
 }
+
 .sales-page .list2 .carlist .box .bottom .btn {
     display: flex;
     justify-content: center;
@@ -2929,48 +3032,22 @@ footer .foot p {
         overflow: hidden;
         /* padding: 50px 50px; */
     }
+
     .sales-page .list2 .carlist {
         width: 90%;
-        height: 27em;
         border-radius: 10px;
         /* border: 1px solid red; */
     }
 
     .sales-page .list2 .carlist .box {
-        height: 90%;
         flex: 0 0 100%;
         scroll-snap-align: start;
         /* border: 1px solid red; */
     }
 
-    .sales-page .list2 .carlist .box .top img {
-        width: 80%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .sales-page .list2 .carlist .box .ferrari{
-        width: 20em;
-        height: 25em;
-    }
-    .sales-page .list2 .carlist .box .ferrari img{
-        width: 100%;
-        height: 100%;
-    }
-    .sales-page .list2 .carlist .box .lamborghini{
-        width: 20em;
-        height: 25em;
-    }
-    .sales-page .list2 .carlist .box .lamborghini img{
-        width: 100%;
-        height: 100%;
-    }
-    .sales-page .list2 .carlist .box .lotus{
-        width: 20em;
-        height: 24em;
-    }
-    .sales-page .list2 .carlist .box .lotus img{
-        width: 100%;
-        height: 100%;
+    .sales-page .list2 .carlist .box .box6 {
+        background-size: contain;
+
     }
 }
 
@@ -2992,12 +3069,14 @@ footer .foot p {
         height: 100%;
         object-fit: cover;
     }
-    .sales-page .list2 .carlist .box .volk{
+
+    .sales-page .list2 .carlist .box .volk {
         width: 5em;
         height: 5em;
         border: 1px solid red;
     }
-    .sales-page .list2 .carlist .box .volk img{
+
+    .sales-page .list2 .carlist .box .volk img {
         width: 100%;
         height: 100%;
     }
@@ -3007,7 +3086,7 @@ footer .foot p {
 /* TATA-PAGE */
 
 
-.tata{
+.tata {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -3015,38 +3094,112 @@ footer .foot p {
     position: relative;
     background-color: #000000ce;
 }
-.tata video{
+
+.tata video {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: -1;
 }
-.tata .tata-info{
+
+.tata .tata-info {
     /* border: 1px solid red; */
     margin-top: 60px;
     width: 50em;
     height: 35em;
 }
-.tata .tata-info .top{
+
+.tata .tata-info .top {
+    /* border: 1px solid red; */
     height: 50%;
-    width: 100%;
     padding-left: 15%;
 }
-.tata .tata-info .top img{
-    height: 100%;
-    width: 80%;
+
+.tata .tata-info .logo1 {
+    background: url(../image/tata.png) no-repeat center;
+    background-size: contain;
 }
-.tata .tata-info .bottom{
+.tata .tata-info .logo2 {
+    background: url(../image/pngegg.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo3 {
+    background: url(../image/png1.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo4 {
+    background: url(../image/png2.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo5 {
+    background: url(../image/png3.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo6 {
+    background: url(../image/png4.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo7 {
+    background: url(../image/png6.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo8 {
+    background: url(../image/audi.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo9 {
+    background: url(../image/bmw.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo10 {
+    background: url(../image/jaguar.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo11 {
+    background: url(../image/lexus.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo12 {
+    background: url(../image/skoda.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo13 {
+    background: url(../image/nisson\ logo.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo14 {
+    background: url(../image/png\ 7.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo15 {
+    background: url(../image/ferrari.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo16 {
+    background: url(../image/png8.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo17 {
+    background: url(../image/png9.png) no-repeat center;
+    background-size: contain;
+}
+.tata .tata-info .logo18 {
+    background: url(../image/70879859583.png) no-repeat center;
+    background-size: contain;
+}
+
+.tata .tata-info .bottom {
     height: 50%;
-    width: 100%;
     padding: 20px;
 }
-.tata .tata-info .bottom h1{
+
+.tata .tata-info .bottom h1 {
     color: #ff7226;
     text-align: center;
 }
-.tata .tata-info .bottom p{
+
+.tata .tata-info .bottom p {
     text-align: justify;
     font-weight: 600;
     margin-top: 20px;
@@ -3054,13 +3207,15 @@ footer .foot p {
 }
 
 @media all and (max-width:576px) {
-    .tata .tata-info .bottom h1{
+    .tata .tata-info .bottom h1 {
         font-size: 1.3rem;
     }
-    .tata .tata-info .bottom p{
+
+    .tata .tata-info .bottom p {
         font-size: .6rem;
     }
 }
+
 .safori {
     /* height: 100vh; */
     padding: 100px 0 60px 0;
@@ -3069,6 +3224,7 @@ footer .foot p {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .safori .left {
     /* border: 1px solid red; */
     display: flex;
@@ -3113,12 +3269,11 @@ footer .foot p {
 }
 
 .safori .left h5 {
-    padding: 10px;
     border-radius: 20px;
     font-size: 1.3rem;
-    /* width: 50%; */
     color: black;
 }
+
 .safori .right {
     /* border: 1px solid red; */
     width: 30em;
@@ -3129,13 +3284,59 @@ footer .foot p {
     overflow: hidden;
 }
 
-.safori .right img {
-    height: 100%;
-    width: 100%;
-    /* object-fit: cover; */
-    border-radius: inherit;
-    transition: .5s;
+.safori .img {
+    background: url(../image/safori.avif) no-repeat center;
+    background-size: cover;
 }
+.safori .img1 {
+    background: url(../image/NISSON\ GTR.png) no-repeat center;
+    background-size: cover;
+}
+.safori .img2 {
+    background: url(../image/BOAT\ TAIL.png) no-repeat center;
+    background-size: cover;
+}
+.safori .img3 {
+    background: url(../image/Ferrari\ GTC4Lusso.png) no-repeat center;
+    background-size: contain;
+}
+.safori .img4 {
+    background: url(../image/Aventador\ LAMBO.png) no-repeat center;
+    background-size: contain;
+}
+.safori .img5 {
+    background: url(../image/BUGATTI\ CHIRON.png) no-repeat center;
+    background-size: contain;
+}
+.safori .img6 {
+    background: url(../image/LOTUS\ ELETRE.png) no-repeat center;
+    background-size: contain;
+}
+.safori .img7 {
+    background: url(../image/land\ rover.png) no-repeat center;
+    background-size: contain;
+}
+.safori .img8 {
+    background: url(../image/audi\ a61.png) no-repeat center;
+    background-size: contain;
+}
+.safori .img9 {
+    background: url(../image/BMW\ M3.png) no-repeat center;
+    background-size: contain;
+}
+.safori .img10 {
+    background: url(../image/JAGUAR\ F\ FACE.png) no-repeat center;
+    background-size: contain;
+}
+.safori .img11 {
+    background: url(../image/LUXES\ ES.png) no-repeat center;
+    background-size: contain;
+}
+.safori .img12 {
+    background: url(../image/Skoda\ Kodiaq.png) no-repeat center;
+    background-size: contain;
+}
+
 .safori .right .bg1 {
     /* border: 1px solid red; */
     height: 100%;
@@ -3151,10 +3352,6 @@ footer .foot p {
     top: 100%;
     left: 100%;
 }
-.safori .right:hover img{
-    transform: scale(1.1);
-}
-
 .safori .right .bg2 {
     /* border: 1px solid red; */
     height: 100%;
@@ -3172,36 +3369,43 @@ footer .foot p {
 }
 
 @media all and (max-width:576px) {
-    .safori{
+    .safori {
         /* padding-top: -100px; */
     }
-    .safori .left{
+
+    .safori .left {
         margin-top: -100px;
         width: 25em;
         height: 17.5em;
     }
-    .safori .left h1{
+
+    .safori .left h1 {
         font-size: 1rem;
     }
-    .safori .left p{
+
+    .safori .left p {
         font-size: .5rem;
     }
-    .safori .left h5{
+
+    .safori .left h5 {
         font-size: .8rem;
         /* width: 80%; */
     }
-    .safori .left button{
+
+    .safori .left button {
         font-size: 1rem;
         width: 60%;
     }
-    .safori .right{
+
+    .safori .right {
         box-shadow: none;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: -50px;
     }
-    .safori .right img{
+
+    .safori .right img {
         /* border: 1px solid red; */
         width: 22em;
         height: 22em;
@@ -3229,7 +3433,7 @@ footer .foot p {
     justify-content: space-evenly;
     padding: 0 50px;
     width: 50em;
-    height: 25em;
+    height: 27em;
     position: relative;
     overflow: hidden;
 
@@ -3267,12 +3471,11 @@ footer .foot p {
 }
 
 .altroz .left h5 {
-    padding: 10px;
     border-radius: 20px;
     font-size: 1.3rem;
-    width: 40%;
     color: black;
 }
+
 .altroz .right {
     /* border: 1px solid red; */
     width: 30em;
@@ -3283,13 +3486,59 @@ footer .foot p {
     overflow: hidden;
 }
 
-.altroz .right img {
-    height: 100%;
-    width: 100%;
-    /* object-fit: cover; */
-    border-radius: inherit;
-    transition: .5s;
+.altroz .img {
+    background: url(../image/altros-removebg-preview.png) no-repeat center;
+    background-size: cover;
 }
+.altroz .img1 {
+    background: url(../image/Skyline\ Gt-r.png) no-repeat center;
+    background-size: cover;
+}
+.altroz .img2 {
+    background: url(../image/rolls-royce-spectre.png) no-repeat center;
+    background-size: cover;
+}
+.altroz .img3 {
+    background: url(../image/FERRARI\ Portofino.png) no-repeat center;
+    background-size: contain;
+}
+.altroz .img4 {
+    background: url(../image/Diablo\ LAMBO.png) no-repeat center;
+    background-size: contain;
+}
+.altroz .img5 {
+    background: url(../image/BUGATTI\ DIVO.png) no-repeat center;
+    background-size: contain;
+}
+.altroz .img6 {
+    background: url(../image/LOTUS\ EMIRA.png) no-repeat center;
+    background-size: cover;
+}
+.altroz .img7 {
+    background: url(../image/range\ rover.png) no-repeat center;
+    background-size: contain;
+}
+.altroz .img8 {
+    background: url(../image/AUDI\ A8.png) no-repeat center;
+    background-size: contain;
+}
+.altroz .img9 {
+    background: url(../image/BMW\ M4.png) no-repeat center;
+    background-size: contain;
+}
+.altroz .img10 {
+    background: url(../image/JAGUAR\ F\ TYPE.png) no-repeat center;
+    background-size: contain;
+}
+.altroz .img11 {
+    background: url(../image/LUXES\ GS.png) no-repeat center;
+    background-size: contain;
+}
+.altroz .img12 {
+    background: url(../image/skoda\ octavia.png) no-repeat center;
+    background-size: contain;
+}
+
 .altroz .right .bg1 {
     /* border: 1px solid red; */
     height: 100%;
@@ -3321,40 +3570,44 @@ footer .foot p {
     bottom: 100%;
     right: 100%;
 }
-.altroz .right:hover img{
-    transform: scale(1.1);
-}
 
 @media all and (max-width:576px) {
-    .altroz{
+    .altroz {
         padding: 0 0 60px 0;
     }
-    .altroz .left{
+
+    .altroz .left {
         margin-top: -100px;
         width: 25em;
         height: 17.5em;
     }
-    .altroz .left h1{
+
+    .altroz .left h1 {
         font-size: 1rem;
     }
-    .altroz .left p{
+
+    .altroz .left p {
         font-size: .5rem;
     }
-    .altroz .left h5{
+
+    .altroz .left h5 {
         font-size: .8rem;
         /* width: 80%; */
     }
-    .altroz .left button{
+
+    .altroz .left button {
         font-size: 1rem;
         width: 60%;
     }
-    .altroz .right{
+
+    .altroz .right {
         box-shadow: none;
         display: flex;
         align-items: center;
         justify-content: center
     }
-    .altroz .right img{
+
+    .altroz .right img {
         width: 22em;
         height: 22em;
         /* object-fit: cover; */
@@ -3416,12 +3669,11 @@ footer .foot p {
 }
 
 .bolt .left h5 {
-    padding: 10px;
     border-radius: 20px;
     font-size: 1.3rem;
-    width: 40%;
     color: black;
 }
+
 .bolt .right {
     /* border: 1px solid red; */
     width: 30em;
@@ -3432,13 +3684,56 @@ footer .foot p {
     overflow: hidden;
 }
 
-.bolt .right img {
-    height: 100%;
-    width: 100%;
-    /* object-fit: cover; */
-    border-radius: inherit;
-    transition: .5s;
+.bolt .img {
+    background: url(../image/bolt.png) no-repeat center;
+    background-size: cover;
 }
+.bolt .img1 {
+    background: url(../image/R32.png) no-repeat center;
+    background-size: cover;
+}
+.bolt .img2 {
+    background: url(../image/ROLLS\ GOUST.png) no-repeat center;
+    background-size: cover;
+}
+.bolt .img3 {
+    background: url(../image/Ferrari-Roma.png) no-repeat center;
+    background-size: contain;
+}
+.bolt .img4 {
+    background: url(../image/GALLARDO\ LAMBO.png) no-repeat center;
+    background-size: cover;
+}
+.bolt .img5 {
+    background: url(../image/BUGATTI\ TYPE\ 35.png) no-repeat center;
+    background-size: contain;
+}
+.bolt .img7 {
+    background: url(../image/ROVER\ SPORTS.png) no-repeat center;
+    background-size: contain;
+}
+.bolt .img8 {
+    background: url(../image/AUDI\ Q3.png) no-repeat center;
+    background-size: contain;
+}
+.bolt .img9 {
+    background: url(../image/BMW\ M7.png) no-repeat center;
+    background-size: contain;
+}
+.bolt .img10 {
+    background: url(../image/JAGUAR\ XF.png) no-repeat center;
+    background-size: contain;
+}
+.bolt .img11 {
+    background: url(../image/LUXES\ LX.png) no-repeat center;
+    background-size: contain;
+}
+.bolt .img12 {
+    background: url(../image/skoda\ superb.png) no-repeat center;
+    background-size: contain;
+}
+
+
 .bolt .right .bg1 {
     /* border: 1px solid red; */
     height: 100%;
@@ -3470,35 +3765,37 @@ footer .foot p {
     bottom: 100%;
     right: 100%;
 }
-.bolt .right:hover img{
-    transform: scale(1.1);
-}
-
 @media all and (max-width:576px) {
-    .bolt{
+    .bolt {
         padding: 0 0 60px 0;
     }
-    .bolt .left h1{
+
+    .bolt .left h1 {
         font-size: 1rem;
     }
-    .bolt .left p{
+
+    .bolt .left p {
         font-size: .5rem;
     }
-    .bolt .left h5{
+
+    .bolt .left h5 {
         font-size: .8rem;
         /* width: 80%; */
     }
-    .bolt .left button{
+
+    .bolt .left button {
         font-size: 1rem;
         width: 60%;
     }
-    .bolt .right{
+
+    .bolt .right {
         box-shadow: none;
         display: flex;
         align-items: center;
         justify-content: center
     }
-    .bolt .right img{
+
+    .bolt .right img {
         width: 22em;
         height: 22em;
         /* object-fit: cover; */
@@ -3561,12 +3858,11 @@ footer .foot p {
 }
 
 .curvv .left h5 {
-    padding: 12px;
     border-radius: 20px;
     font-size: 1.2rem;
-    width: 45%;
     color: black;
 }
+
 .curvv .right {
     /* border: 1px solid red; */
     width: 30em;
@@ -3577,15 +3873,45 @@ footer .foot p {
     overflow: hidden;
 }
 
-.curvv .right img {
-    height: 100%;
-    width: 100%;
-    /* object-fit: cover; */
-    border-radius: inherit;
-    transition: .5s;
+.curvv .img {
+    background: url(../image/Curvv1.png) no-repeat center;
+    background-size: cover;
 }
-.curvv .right:hover img{
-    transform: scale(1.1);
+.curvv .img1 {
+    background: url(../image/NISSON\ Z.png) no-repeat center;
+    background-size: cover;
+}
+.curvv .img2 {
+    background: url(../image/CULLINAN.png) no-repeat center;
+    background-size: cover;
+}
+.curvv .img3 {
+    background: url(../image/LA\ FERRARI.png) no-repeat center;
+    background-size: contain;
+}
+.curvv .img4 {
+    background: url(../image/Urus\ LAMBO.png) no-repeat center;
+    background-size: cover;
+}
+.curvv .img7 {
+    background: url(../image/ROVER\ VELOR.png) no-repeat center;
+    background-size: contain;
+}
+.curvv .img8 {
+    background: url(../image/AUDI\ Q5.png) no-repeat center;
+    background-size: contain;
+}
+.curvv .img9 {
+    background: url(../image/BMW\ X5.png) no-repeat center;
+    background-size: contain;
+}
+.curvv .img10 {
+    background: url(../image/JAGUAR\ XKR.png) no-repeat center;
+    background-size: contain;
+}
+.curvv .img11 {
+    background: url(../image/LUXES\ RC.png) no-repeat center;
+    background-size: contain;
 }
 .curvv .right .bg1 {
     /* border: 1px solid red; */
@@ -3618,37 +3944,43 @@ footer .foot p {
     bottom: 100%;
     right: 100%;
 }
+
 @media all and (max-width:576px) {
-    .curvv{
+    .curvv {
         padding: 0 0 60px 0;
     }
-    .curvv .left h1{
+
+    .curvv .left h1 {
         font-size: 1rem;
     }
-    .curvv .left p{
+
+    .curvv .left p {
         font-size: .5rem;
     }
-    .curvv .left h5{
+
+    .curvv .left h5 {
         font-size: .8rem;
         /* width: 80%; */
     }
-    .curvv .left button{
+
+    .curvv .left button {
         font-size: 1rem;
         width: 60%;
     }
-    .curvv .right{
+
+    .curvv .right {
         box-shadow: none;
         display: flex;
         align-items: center;
         justify-content: center
     }
-    .curvv .right img{
+
+    .curvv .right img {
         width: 22em;
         height: 22em;
         /* object-fit: cover; */
     }
 }
-
 .tiago {
     /* height: 100vh; */
     padding: 100px 0 60px 0;
@@ -3704,12 +4036,11 @@ footer .foot p {
 }
 
 .tiago .left h5 {
-    padding: 10px;
     border-radius: 20px;
     font-size: 1.3rem;
-    width: 40%;
     color: black;
 }
+
 .tiago .right {
     /* border: 1px solid red; */
     width: 30em;
@@ -3720,16 +4051,12 @@ footer .foot p {
     overflow: hidden;
 }
 
-.tiago .right img {
-    height: 100%;
-    width: 100%;
-    /* object-fit: cover; */
-    border-radius: inherit;
-    transition: .5s;
+.tiago .img {
+    background: url(../image/tiago.png) no-repeat center;
+    background-size: cover;
 }
-.tiago .right:hover img{
-    transform: scale(1.1);
-}
+
+
 .tiago .right .bg1 {
     /* border: 1px solid red; */
     height: 100%;
@@ -3761,31 +4088,38 @@ footer .foot p {
     bottom: 100%;
     right: 100%;
 }
+
 @media all and (max-width:576px) {
-    .tiago{
+    .tiago {
         padding: 0 0 60px 0;
     }
-    .tiago .left h1{
+
+    .tiago .left h1 {
         font-size: 1rem;
     }
-    .tiago .left p{
+
+    .tiago .left p {
         font-size: .5rem;
     }
-    .tiago .left h5{
+
+    .tiago .left h5 {
         font-size: .8rem;
         /* width: 80%; */
     }
-    .tiago .left button{
+
+    .tiago .left button {
         font-size: 1rem;
         width: 60%;
     }
-    .tiago .right{
+
+    .tiago .right {
         box-shadow: none;
         display: flex;
         align-items: center;
         justify-content: center
     }
-    .tiago .right img{
+
+    .tiago .right img {
         width: 22em;
         height: 22em;
         /* object-fit: cover; */
@@ -3848,12 +4182,11 @@ footer .foot p {
 }
 
 .punch .left h5 {
-    padding: 12px;
     border-radius: 20px;
     font-size: 1.2rem;
-    width: 40%;
     color: black;
 }
+
 .punch .right {
     /* border: 1px solid red; */
     width: 30em;
@@ -3864,16 +4197,12 @@ footer .foot p {
     overflow: hidden;
 }
 
-.punch .right img {
-    height: 100%;
-    width: 100%;
-    /* object-fit: cover; */
-    border-radius: inherit;
-    transition: .5s;
+.punch .img {
+    background: url(../image/TATA_Punch-removebg-preview\ \(1\).png) no-repeat center;
+    background-size: cover;
 }
-.punch .right:hover img{
-    transform: scale(1.1);
-}
+
+
 .punch .right .bg1 {
     /* border: 1px solid red; */
     height: 100%;
@@ -3905,31 +4234,38 @@ footer .foot p {
     bottom: 100%;
     right: 100%;
 }
+
 @media all and (max-width:576px) {
-    .punch{
+    .punch {
         padding: 0 0 60px 0;
     }
-    .punch .left h1{
+
+    .punch .left h1 {
         font-size: 1rem;
     }
-    .punch .left p{
+
+    .punch .left p {
         font-size: .5rem;
     }
-    .punch .left h5{
+
+    .punch .left h5 {
         font-size: .8rem;
         /* width: 80%; */
     }
-    .punch .left button{
+
+    .punch .left button {
         font-size: 1rem;
         width: 60%;
     }
-    .punch .right{
+
+    .punch .right {
         box-shadow: none;
         display: flex;
         align-items: center;
         justify-content: center
     }
-    .punch .right img{
+
+    .punch .right img {
         width: 22em;
         height: 22em;
         /* object-fit: cover; */
@@ -3945,6 +4281,7 @@ footer .foot p {
     }
 
     .punch .right {
+        box-shadow: none;
         width: 43em;
         height: 30em;
     }
@@ -3959,6 +4296,7 @@ footer .foot p {
     }
 
     .tiago .right {
+        box-shadow: none;
         width: 43em;
         height: 30em;
     }
@@ -3973,6 +4311,7 @@ footer .foot p {
     }
 
     .curvv .right {
+        box-shadow: none;
         width: 43em;
         height: 30em;
     }
@@ -3987,6 +4326,7 @@ footer .foot p {
     }
 
     .bolt .right {
+        box-shadow: none;
         width: 43em;
         height: 30em;
     }
@@ -4001,6 +4341,7 @@ footer .foot p {
     }
 
     .altroz .right {
+        box-shadow: none;
         width: 43em;
         height: 30em;
     }
@@ -4015,6 +4356,7 @@ footer .foot p {
     }
 
     .safori .right {
+        box-shadow: none;
         width: 43em;
         height: 30em;
     }
