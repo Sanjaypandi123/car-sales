@@ -51,7 +51,6 @@ header .brand {
     justify-content: space-around;
     align-items: center;
 }
-
 header .brand a {
     font-size: 2rem;
     font-weight: 600;
@@ -668,14 +667,14 @@ header .icons a:hover {
 /* soon-page */
 
 .soon-page {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     /* flex-wrap: wrap; */
 }
 
 .soon-page .car {
     /* border: 1px solid red; */
-    height: 100%;
+    height: 697.5px;
     width: 1000px;
     background: url(../image/car-pic1.png) no-repeat center;
     display: flex;
@@ -779,19 +778,17 @@ header .icons a:hover {
 .soon-page .right a {
     /* border: 1px solid red; */
     font-size: 1.3rem;
-    width: 8.3em;
-    text-align: center;
+    /* width: 8.3em; */
+    /* text-align: center; */
     text-decoration: none;
     font-weight: 600;
     color: white;
-    transition: .5s;
 }
 
 .soon-page .right a:hover {
-    border-bottom: 1px solid #ff7226;
+    /* border-bottom: 1px solid #ff7226; */
     color: #ff7226;
 }
-
 @media all and (max-width:576px) {
     .soon-page .car {
         display: none;
@@ -1185,9 +1182,10 @@ header .icons a:hover {
     height: 33em;
     border-radius: 10px;
     overflow: hidden;
+}
+.blog-page .main .box:hover{
     box-shadow: 0 0 5px;
 }
-
 .blog-page .main .box:hover .top img {
     transform: scale(1.1);
 }
@@ -1195,6 +1193,7 @@ header .icons a:hover {
 .blog-page .main .box .top {
     height: 50%;
     overflow: hidden;
+    border-radius: 10px
 }
 
 .blog-page .main .box .top img {
@@ -1242,6 +1241,7 @@ header .icons a:hover {
 }
 
 .blog-page .main .box .bottom a:hover::after {
+    /* transition: .5s; */
     display: flex;
 }
 
@@ -1758,6 +1758,7 @@ footer .foot p {
 
 
 .service-content {
+    /* border: 1px solid red; */
     /* height: 100vh; */
     padding: 50px 0;
 }
@@ -2272,7 +2273,7 @@ footer .foot p {
 .details-page .main .right .message textarea {
     width: 100%;
     height: 100%;
-    padding: 40px 40px 0 40px;
+    padding: 10px 40px 0 40px;
     border-radius: 20px;
     color: black;
     font-size: 1rem;
@@ -2480,7 +2481,9 @@ footer .foot p {
 
 .sales-page {
     /* height: 100vh; */
+    /* border: 1px solid red; */
     background-color: #1e1c1c;
+    padding-bottom: 80px;
 }
 
 .sales-page .list1 {
@@ -3336,6 +3339,26 @@ footer .foot p {
     background: url(../image/Skoda\ Kodiaq.png) no-repeat center;
     background-size: contain;
 }
+.safori .img13 {
+    background: url(../image/wolkswagen.png) no-repeat center;
+    background-size: contain;
+}
+.safori .img14 {
+    background: url(../image/xxuv700.webp) no-repeat center;
+    background-size: contain;
+}
+.safori .img15 {
+    background: url(../image/mg_hector_pluss-removebg-preview.png) no-repeat center;
+    background-size: contain;
+}
+.safori .img16 {
+    background: url(../image/Hyundai\ Creta.webp) no-repeat center;
+    background-size: cover;
+}
+.safori .img17 {
+    background: url(../image/sportage.png) no-repeat center;
+    background-size: contain;
+}
 
 .safori .right .bg1 {
     /* border: 1px solid red; */
@@ -3488,7 +3511,7 @@ footer .foot p {
 
 .altroz .img {
     background: url(../image/altros-removebg-preview.png) no-repeat center;
-    background-size: cover;
+    background-size: contain;
 }
 .altroz .img1 {
     background: url(../image/Skyline\ Gt-r.png) no-repeat center;
@@ -3536,6 +3559,26 @@ footer .foot p {
 }
 .altroz .img12 {
     background: url(../image/skoda\ octavia.png) no-repeat center;
+    background-size: contain;
+}
+.altroz .img13 {
+    background: url(../image/beetly.png) no-repeat center;
+    background-size: contain;
+}
+.altroz .img14 {
+    background: url(../image/Thar_Roxx_.webp) no-repeat center;
+    background-size: contain;
+}
+.altroz .img15 {
+    background: url(../image/mg\ astor.webp) no-repeat center;
+    background-size: cover;
+}
+.altroz .img16 {
+    background: url(../image/kona.png) no-repeat center;
+    background-size: contain;
+}
+.altroz .img17 {
+    background: url(../image/cornivel.png) no-repeat center;
     background-size: contain;
 }
 
@@ -3732,6 +3775,26 @@ footer .foot p {
     background: url(../image/skoda\ superb.png) no-repeat center;
     background-size: contain;
 }
+.bolt .img13 {
+    background: url(../image/golf.png) no-repeat center;
+    background-size: contain;
+}
+.bolt .img14 {
+    background: url(../image/bolero.png) no-repeat center;
+    background-size: contain;
+}
+.bolt .img15 {
+    background: url(../image/mg\ cyberster.webp) no-repeat center;
+    background-size: cover;
+}
+.bolt .img16 {
+    background: url(../image/nexo.png) no-repeat center;
+    background-size: cover;
+}
+.bolt .img17 {
+    background: url(../image/niro.png) no-repeat center;
+    background-size: cover;
+}
 
 
 .bolt .right .bg1 {
@@ -3913,6 +3976,26 @@ footer .foot p {
     background: url(../image/LUXES\ RC.png) no-repeat center;
     background-size: contain;
 }
+.curvv .img13 {
+    background: url(../image/passat.png) no-repeat center;
+    background-size: contain;
+}
+.curvv .img14 {
+    background: url(../image/scarbio.png) no-repeat center;
+    background-size: contain;
+}
+.curvv .img15 {
+    background: url(../image/MG_Comet-EV-removebg-preview.png) no-repeat center;
+    background-size: cover;
+}
+.curvv .img16 {
+    background: url(../image/palisade.png) no-repeat center;
+    background-size: contain;
+}
+.curvv .img17 {
+    background: url(../image/sporttage.png) no-repeat center;
+    background-size: contain;
+}
 .curvv .right .bg1 {
     /* border: 1px solid red; */
     height: 100%;
@@ -4053,6 +4136,26 @@ footer .foot p {
 
 .tiago .img {
     background: url(../image/tiago.png) no-repeat center;
+    background-size: cover;
+}
+.tiago .img13 {
+    background: url(../image/polo.png) no-repeat center;
+    background-size: contain;
+}
+.tiago .img14 {
+    background: url(../image/MAHINDRA_XUV-3XO_.png) no-repeat center;
+    background-size: contain;
+}
+.tiago .img15 {
+    background: url(../image/mg-gloster-removebg-preview.png) no-repeat center;
+    background-size: cover;
+}
+.tiago .img16 {
+    background: url(../image/sonata.png) no-repeat center;
+    background-size: contain;
+}
+.tiago .img17 {
+    background: url(../image/sorento.png) no-repeat center;
     background-size: cover;
 }
 
@@ -4200,6 +4303,26 @@ footer .foot p {
 .punch .img {
     background: url(../image/TATA_Punch-removebg-preview\ \(1\).png) no-repeat center;
     background-size: cover;
+}
+.punch .img13 {
+    background: url(../image/Touareg.png) no-repeat center;
+    background-size: cover;
+}
+.punch .img14 {
+    background: url(../image/THAR.png) no-repeat center;
+    background-size: cover;
+}
+.punch .img15 {
+    background: url(../image/mg-windsor-ev--removebg-preview.png) no-repeat center;
+    background-size: contain;
+}
+.punch .img16 {
+    background: url(../image/tucson.png) no-repeat center;
+    background-size: contain;
+}
+.punch .img17 {
+    background: url(../image/forte.png) no-repeat center;
+    background-size: contain;
 }
 
 
@@ -4364,4 +4487,4 @@ footer .foot p {
     .safori .left {
         gap: 20px;
     }
-}
+}   
